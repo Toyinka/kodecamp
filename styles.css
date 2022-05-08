@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.read-assistance .icon {
+    margin-right: 10px;
+}
+
+.black {
+    color: black;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+}
+
+.hero-section .text-section, #hero-section .image-section {
+width: 60%;
+}
+
+
+#hero-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(images/headerimage.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    
+}
+
+.text-section, h1 {
+    font-size: 60px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    color: white;
+    border-style: none;
+    
+}
+
+.orange-btn2 {
+background: #FF6433;
+border-radius: 12px;
+padding: 16px 40px;
+text-decoration: none;
+font-size: 18px;
+color: white;
+border-style: none;
+margin-bottom: 50px;
+}
+
+.space {
+    margin-top: 36px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 58px;
+}
+h5 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+.cont {
+    /* display: column; */
+   
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 36px;
+}
+
+.numb {
+width: 36px;
+}
+
+.flexbottom {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.image {
+    width: 50%;
+    height: ;
+}
+
+.flexy {
+    display: flex;
+    gap: 16px;
+}
+
+.flexcar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 8px;
+    width: 80%;
+    align-items: center;  
+}
+
+.flexcar2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 8px;
+    width: 80%;
+    align-items: center;
+}
+ 
+.location {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 18px;
+padding-left: 30px;
+background-color: white;
+border-radius: 12px;
+width: 100%;
+border-style: none;
+}
+
+.bg {
+    background-color: #E2E6E9;
+   padding: 100px 0;
+}
+
+.bg2 {
+    padding: 100px 0;
+}
+
+.bg3a {
+    
+    padding: 100px 0;
+    text-align: center;
+}
+
+.bg3 {
+background-color: #f2f2f2;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.arrowleft {
+    width: 80%;
+    text-align: right;
+}
+
+.right, left {
+width: 50%;
+vertical-align: middle;
+}
+
+.icon-bg {
+    background-color: white;
+    padding: 40px 40px;
+}
+
+.carflex {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.carimagebox1 {
+    background-image: url(images/carbelow.png);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+.carimagebox2 {
+    background-image: url(images/carbelow2.png);
+    background-size: cover;
+    width: 100%;
+    height: 50vh; 
+}
+.hovertext {
+    background-color: #FF6433;
+    color: white;
+    width: 70%;
+    height: 50vh;
+    padding: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+   margin-left: 30%;  
+}
+
+.row {
+    /* width: 60%; */
+    margin: 30px 60px;
+}
+
+.flexplus {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    color: #661CE7;
+    
+    /* margin-left: 10%; */
+    /* gap: 30px; */
+}
+
+.icon-b {
+background-color: white;
+padding: 12px 20px;
+width: 100%;
+align-items: center;
+}
+
+.last-section {
+    display: flex;
+}
+
+.flexlast {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 8px;
+        width: 80%;
+        align-items: center;
+}
+
+#wheel {
+    background-color: #FF6433;
+    color: white;
+}
+
+.icon-bg-wheel {
+    background-color: #FF6433;
+    padding: 40px 40px;
+}
